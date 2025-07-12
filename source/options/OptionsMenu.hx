@@ -313,7 +313,7 @@ class OptionsMenu extends MusicBeatState
 		}
 	
 		/**
-		 * Called when the save file dialog is cancelled.
+		 * Called when the save file is cancelled.
 		 */
 		function onSaveCancel(_):Void
 		{

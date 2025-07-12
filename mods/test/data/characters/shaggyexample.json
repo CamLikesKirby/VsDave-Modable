@@ -1,0 +1,65 @@
+{
+    "animations": [
+        {
+            "animName": "danceRight",
+            "anim": "shaggy_idle0",
+            "fps": 30,
+            "loop": false
+        },
+        {
+            "animName": "danceLeft",
+            "anim": "shaggy_idle2",
+            "fps": 30,
+            "loop": false
+
+        },
+        {
+            "animName": "singUP",
+            "anim": "shaggy_up",
+            "fps": 30,
+            "loop": false
+
+        },
+        {
+            "animName": "singLEFT",
+            "anim": "shaggy_right",
+            "fps": 30,
+            "loop": false
+
+        },
+        {
+            "animName": "singRIGHT",
+            "anim": "shaggy_left",
+            "fps": 30,
+            "loop": false
+
+        },
+        {
+            "animName": "singDOWN",
+            "anim": "shaggy_down",
+            "fps": 30,
+            "loop": false
+
+        }
+    ],
+    "globalOffset": [0, -350],
+    "isPlayable": false,
+    "skins": [],
+    "barcolor": {
+        "red": 51,
+        "green": 114,
+        "blue": 74
+    },
+    "antialiasing": true,
+    "characterImage": "assets/shared/images/characters/shaggy",
+    "iconImage": "shaggy",
+    "offsetFilePath": "assets/offsets/shaggy",
+    "iconAntialiasing": true,
+    "nativelyPlayable": true,
+    "flipX": false,
+    "updateHitbox": false,
+    "setGraphicSize": "",
+    "effect": "",
+    "danceType": "shaggy",
+    "cameraPosition": [0,0]
+}
