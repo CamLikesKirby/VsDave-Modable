@@ -193,7 +193,7 @@ class BaseGameDeleter extends FlxState
 
 				if (deleteIcons) {
 					for (file in FileSystem.readDirectory('assets/images/ui/iconGrid')) {
-						if (!['bf.png', 'bf-cool.png', 'bf-pixe.pngl', 'dave.png', 'face.png', 'gf.png', 'none.png', 'terminal.png', 'godshaggy.png', 'redshaggy.png', 'shaggy.png', 'supershaggy.png'].contains(file)) {
+						if (!['bf.png', 'bf-cool.png', 'bf-pixel.png', 'dave.png', 'face.png', 'gf.png', 'none.png', 'terminal.png', 'godshaggy.png', 'redshaggy.png', 'shaggy.png', 'supershaggy.png'].contains(file)) {
 							FileSystem.deleteFile('assets/images/ui/iconGrid/' + file);
 						}
 					}

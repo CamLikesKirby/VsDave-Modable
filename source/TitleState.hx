@@ -431,7 +431,7 @@ class TitleState extends MusicBeatState
 					{
 						returnedData[0] = data.substring(0, data.indexOf(';'));
 						returnedData[1] = data.substring(data.indexOf('-'), data.length);
-						if (!MainMenuState.kadeEngineVer.contains(returnedData[0].trim()) && !checkedVersion)
+						if (!MainMenuState.fanmadeEngineVer.contains(returnedData[0].trim()) && !checkedVersion)
 						{
 							fancyOpenURL("https://github.com/CamtheKirby/VsDave-Modable/releases/latest");
 						}

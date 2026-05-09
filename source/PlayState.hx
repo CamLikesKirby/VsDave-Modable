@@ -1565,13 +1565,13 @@ class PlayState extends MusicBeatState
 		{
 			case "exploitation":
 				funkyText = SONG.song;
-				funkyText2 = 'FDE v' + MainMenuState.fanmadeEngineVer;
+				funkyText2 = 'FDE v' + MainMenuState.fanmadeEngineVer + ' CANNED BULID';
 			case 'overdrive':
 				funkyText = '';
 				funkyText2 = '';
 			default:
 				funkyText = SONG.song;
-				funkyText2 = 'FDE v' + MainMenuState.fanmadeEngineVer;
+				funkyText2 = 'FDE v' + MainMenuState.fanmadeEngineVer + ' CANNED BULID';
 		}
 
 		if (!isGreetingsCutscene)
